@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_size">50dp</dimen>
+    <dimen name="margin_top">20dp</dimen>
+    <dimen name="margin_bottom">10dp</dimen>
+    <dimen name="rigth_size">10dp</dimen>
+    <dimen name="left_size">10dp</dimen>
+    <dimen name="width_size">50px</dimen>
+    <dimen name="heigth_size">50px</dimen>
+    <dimen name="bottom_size">10dp</dimen>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="txt_user">Registrar Usuario</string>
+    <string name="txt_registry">Registrar</string>
+    <string name="txt_name">Nombre</string>
+    <string name="txt_regis">Registrar</string>
+    <string name="txt_enter">Ingresar</string>
+    <string name="txt_login">Login Principal</string>
+    <string name="txt_users">Usuario</string>
+    <string name="txt_password">Contraseña</string>
+    <string name="txv_password">Contraseña</string>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/logo2"
+    tools:context="com.utng.vgutierrez.login.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_login"
+        android:textColor="@color/colorWhite"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_size"
+        android:textSize="30dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:singleLine="true"
+        android:id="@+id/et_nombre"
+        android:hint="@string/txt_users"
+        android:textColorHint="@color/colorWhite"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_marginBottom="@dimen/bottom_size"
+        android:layout_marginRight="@dimen/rigth_size"
+        android:layout_marginLeft="@dimen/left_size"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_password"
+        android:inputType="textPassword"
+        android:hint="@string/txv_password"
+        android:textColorHint="@color/colorWhite"
+        android:singleLine="true"
+        android:layout_marginBottom="@dimen/bottom_size"
+        android:layout_marginRight="@dimen/rigth_size"
+        android:layout_marginLeft="@dimen/left_size"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_login"
+        android:text="@string/txt_enter"
+        android:layout_marginBottom="@dimen/bottom_size"
+        android:layout_marginRight="@dimen/rigth_size"
+        android:layout_marginLeft="@dimen/left_size"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_registrar"
+        android:text="@string/txt_regis"
+        android:layout_marginBottom="@dimen/bottom_size"
+        android:layout_marginRight="@dimen/rigth_size"
+        android:layout_marginLeft="@dimen/left_size"
+        android:onClick="nextActivity"
+        />
+
+    <ImageButton
+        android:layout_width="@dimen/width_size"
+        android:layout_height="@dimen/heigth_size"
+        android:src="@drawable/face"
+        android:layout_gravity="center"
+        android:id="@+id/iv_face"/>
+
+    <ImageButton
+        android:layout_width="@dimen/width_size"
+        android:layout_height="@dimen/heigth_size"
+        android:src="@drawable/whats"
+        android:id="@+id/iv_whats"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
